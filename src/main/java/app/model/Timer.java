@@ -10,4 +10,12 @@ public class Timer {
     public Long getTime() {
         return nanoTime;
     }
+
+    public Long getNanoTime() {
+        return nanoTime;
+    }
+
+    public void setNanoTime(Long nanoTime) {
+        this.nanoTime = nanoTime;
+    }
 }
